@@ -1,0 +1,569 @@
+ /* ブラウザがそれぞれ持っているCSSをリセットするため */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* header */
+#header-fixed{
+}
+#header-bk{
+}
+.header {
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+img.resize {
+	float: left;
+	height: 70px;
+}
+nav {
+	width: 1024px;
+	margin: 0 auto;
+}
+.nav-list {
+	float: right;
+	text-align: center;
+}
+.nav-list-item {
+	float: left;
+	margin: 0 30px;
+	color: #FAFAFA;
+	font-size: 16px;
+	line-height: 70px;
+	list-style: none;
+}
+#ham-menu {
+	display: none;
+}
+.ham-menu-item {
+	display: none;
+}
+#menu-background {
+}
+
+/* main */
+.main-visual {
+	width: 100%;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+}
+.main-visual-content{
+	width: 100%;
+	height: 500px;
+	padding-top: 200px;
+	text-align: center;
+}
+.main-visual-text {
+	color: #FAFAFA;
+	font-size: 64px;
+}
+.main-visual-name{
+	margin-top: 10px;
+	color: #FAFAFA;
+	font-size: 20px;
+}
+
+/* 各メニュー共通 */
+.contents-title {
+	padding-top: 90px;
+	color: #000000;
+	font-size: 32px;
+	text-align: center;
+}
+.contents-line {
+	width: 70px;
+	margin: 0 auto;
+	margin-top: 8px;
+	margin-bottom: 30px;
+	border-top: 3px solid #EC715F;
+}
+.contents-description {
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+}
+.clear {
+    clear:both;　/* floatの解除 */
+}
+
+/* portfolio */
+.portfolio {
+	width: 100%;
+	background-color: #ECEFF1;
+}
+.portfolio-contents {
+	width: 920px;
+	padding-bottom: 90px;
+	margin: 0 auto;
+	text-align: center;
+}
+.portfolio-pic-box {
+	padding-top: 30px;
+}
+.portfolio-pic1 {
+	float: left;
+	width: 300px;
+	height: 250px;
+	background-image: url(img/sketch.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.portfolio-pic2 {
+	float: left;
+	width: 300px;
+	height: 250px;
+	margin-left: 10px;
+	background-image: url(img/websuku.png);
+	background-position: center;
+	background-size: cover;
+}
+.portfolio-pic3 {
+	float: left;
+	width: 300px;
+	height: 250px;
+	margin-left: 10px;
+	background-image: url(img/write.jpg);
+	background-position: center;
+	background-size: cover; 
+}
+.portfolio-pic4 {
+	float: left;
+	margin-top: 10px;
+	width: 300px;
+	height: 250px;
+	background-image: url(img/webcamp.png);
+	background-position: center;
+	background-size: cover;
+}
+.portfolio-pic5 {
+	float: left;
+	width: 300px;
+	height: 250px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-image: url(img/talk.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.portfolio-pic6 {
+	float: left;
+	width: 300px;
+	height: 250px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-image: url(img/webcamp-mother.png);
+	background-position: center;
+	background-size: cover;
+}
+
+/* feature */
+.feature {
+	width: 100%;
+	background-color: #FAFAFA;
+}
+.feature-contents {
+	width: 980px;
+	padding-bottom: 90px;
+	margin: 0 auto;
+	text-align: center;
+}
+.feature-item-box {
+	margin-top: 30px;
+}
+.feature-item-1 {
+	float: left;
+	width: 320px;
+	height: auto;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.feature-item-2 {
+	float: left;
+	width: 320px;
+	height: auto;
+	margin-top: 10px;
+}
+.feature-text-headline {
+	margin-top: 10px;
+}
+.feature-text {
+	margin-top: 10px;
+	color: #000000;
+	font-size: 16px;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+/* profile */
+.profile {
+	width: 100%;
+	background-color: #ECEFF1;
+}
+.profile-contents {
+	width: 1024px;
+	padding-bottom: 90px;
+	margin: 0 auto;
+	text-align: center;
+}
+.profile-detail {
+	width: 1024px;
+	margin: 0 auto;
+	padding-top: 30px;
+	text-align: left;
+}
+.profile-detail-pic {
+	float: left;
+	width: 512px;
+	text-align: center;
+}
+.profile-detail-pic-circle {
+	width:  250px;
+	height: 250px;
+	border-radius: 50%;
+}
+.profile-detail-contents {
+	float: left;
+	width: 512px;
+}
+.profile-detail-contents-title {
+	margin-top: 30px;
+	font-size: 20px;
+}
+.profile-detail-contents-detail {
+	margin-top: 5px;
+	color: #000000;
+	font-size: 16px;
+}
+
+/* contact */
+.contact {
+	width: 100%;
+	padding-bottom: 90px;
+}
+.contact-contents {
+	width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+}
+.contact-detail {
+	width: 800px;
+	padding-top: 30px;
+	margin: 0 auto;
+	text-align: left;
+}
+.contact-detail-info {
+	float: left;
+	width: 400px;
+	text-align: center;
+}
+.contact-detail-info-contents {
+	display:inline-block;
+	text-align: left;
+}
+.contact-title {
+	font-size: 20px;
+}
+.contact-link {
+}
+.contact-detail-sns {
+	float: left;
+	width: 400px;
+	margin:0 auto;
+	text-align: center;
+}
+.contact-detail-sns-contents {
+	display:inline-block;
+	text-align: left;
+}
+.contact-sns-icon-box {
+	text-align: center;
+}
+#icon1 {
+	margin-right: 20px;
+}
+#icon2 {
+	margin-right: 20px;
+}
+#icon3 {
+}
+
+/* footer */
+.footer {
+	width: 100%;
+	height: 60px;
+	background-color: #EC715F;
+	color: #FAFAFA;
+	font-size: 16px;
+	line-height: 60px;
+	text-align: center;
+}
+
+@media screen and (max-width:768px) {
+	/* header */
+	/* ヘッダーの固定 */
+	div#header-fixed
+	{
+		position: fixed;
+		width: 100%;
+		height: 140px;
+		top: 0px;
+		left: 0px;
+	}
+	div#header-bk {
+		height:50px;
+		width:100%;
+		padding:0px 0 20px;
+		background-color:#444;
+	}
+	.header {
+		width: 100%;
+		height: 50px;
+		background-color: #EC715F;
+	}
+	img.resize {
+		float: left;
+		height: 50px;
+	}
+	nav {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.nav-list {
+		display: none;
+	}
+	/* ハンバーガーメニュー */
+	#ham-menu {
+		display: block;
+		width: 300px;
+		height: 100%;
+		padding: 10px 40px;
+		position: fixed;
+		background-color: #fff;
+		box-sizing: border-box;
+		right: -300px;
+		top: 0;
+		transition: transform 0.3s linear 0s;
+		z-index: 1000;
+	}
+	#ham-menu::before {
+		position: absolute;
+		width: 42px;
+		height: 42px;
+		margin-top: 3px;
+		margin-bottom: 3px;
+		margin-right: 8px;
+		background-color: #EC715F;
+		border-radius: 0 0 0 0px;
+		border: 1px solid;
+		border-color: white;
+		color: #FFF;
+		content: "≡";
+		display: block;
+		font-size: 42px;
+		line-height: 36px;
+		right: 100%;
+		text-align: center;
+		top: 0;
+	}
+	#menu-background {
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		background-color: #333;
+		display: block;
+		opacity: 0;
+		right: 0;
+		top: 0;
+		transition: all 0.3s linear 0s;
+		z-index: -1;
+	}
+	#ham-menu:hover {
+	    transform: translate(-300px);
+	}
+	#ham-menu:hover + #menu-background {
+	    opacity: 0.5;
+	    z-index: 999;
+	}
+
+	/* main */
+	.main-visual {
+		width: 100%;
+		height: 750px;
+		background-image: url(img/code.png);
+		background-size: cover;
+	}
+
+	/* portfolio */
+  	.portfolio-contents {
+		width: 100%;
+		margin: 0 auto;
+		padding-bottom: 90px;
+		text-align: center;
+	}
+	.portfolio-pic1 {
+		float: initial;
+		margin-left: initial;
+		width: initial;
+		height: initial;
+		background-image: initial;
+		background-size: initial;
+		background-position: initial;
+	}
+	.portfolio-pic2 {
+		float: none;
+		margin:0 auto;
+		width: 300px;
+		height: 250px;
+		background-image: url(img/websuku.png);
+		background-size: cover;
+		background-position: center;
+	}
+	.portfolio-pic3 {
+		float: initial;
+		width: initial;
+		height: initial;
+		margin-left: initial;
+		background-image: initial;
+		background-size: initial;
+		background-position: initial;
+	}
+	.portfolio-pic4 {
+		float: none;
+		width: 300px;
+		height: 250px;
+		margin:10px auto;
+		background-image: url(img/webcamp.png);
+		background-size: cover;
+		background-position: center;
+	}
+	.portfolio-pic5 {
+		float: initial;
+		width: initial;
+		height: initial;
+		margin-left: initial;
+		background-image: initial;
+		background-size: initial;
+		background-position: initial;
+	}
+	.portfolio-pic6 {
+		float: none;
+		width: 300px;
+		height: 250px;
+		margin:0 auto;
+		background-image: url(img/webcamp-mother.png);
+		background-size: cover;
+		background-position: center;
+	}
+
+	/* feature */
+	.feature-contents {
+		width: 100%;
+		margin: 0 auto;
+		padding-bottom: 90px;
+		text-align: center;
+	}
+	.feature-item-1 {
+		float: none;
+		width: 320px;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+	.feature-item-2 {
+		float: none;
+		width: 320px;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+
+	/* profile */
+	.profile-contents {
+		width: 100%;
+		margin: 0 auto;
+		padding-bottom: 90px;
+		text-align: center;
+	}
+	.profile-detail {
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 30px;
+		text-align: none;
+	}
+	.profile-detail-pic {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.profile-detail-pic-circle {
+		width:  250px;
+		height: 250px;
+		margin: 0 auto;
+		border-radius: 50%;
+	}
+	.profile-detail-contents {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.profile-detail-contents-title {
+		margin: 0 auto;
+		margin-top: 30px;
+		font-size: 20px;
+	}
+	.profile-detail-contents-detail {
+		margin: 0 auto;
+		margin-top: 5px;
+		color: #000000;
+		font-size: 16px;
+	}
+
+	/* contact */
+	.contact-contents {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.contact-title {
+		margin-bottom: 5px;
+		font-size: 20px;
+	}
+	.contact-link {
+		margin-bottom: 20px;
+	}
+	.contact-detail {
+		padding-top: 30px;
+		width: 100%;
+		margin: 0 auto;
+		text-align: none;
+	}
+	.contact-detail-info {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.contact-detail-info-contents {
+		display:inline-block;
+		text-align: center;
+	}
+	.contact-detail-sns {
+		float: none;
+		width: 100%;
+		padding-top: 8px;
+		text-align: center;
+	}
+	.contact-detail-sns-contents {
+		display:inline-block;
+		text-align: center;
+	}
+	.contact-sns-icon-box {
+		text-align: center;
+		width: 100%;
+	}
+}
